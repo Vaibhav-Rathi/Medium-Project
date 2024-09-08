@@ -69,7 +69,7 @@ export const AboutPage = () => {
                         <TeamCard
                             name="Pulkit Sharma"
                             role="Co-Founder & Chief Editor"
-                            bio="Pukit ensures that every story published on MyBlog is insightful, engaging, and impactful."
+                            bio="Pulkit ensures that every story published on MyBlog is insightful, engaging, and impactful."
                         />
                         <TeamCard
                             name="Vivek Grover"
@@ -101,9 +101,9 @@ export const AboutPage = () => {
                             <h3 className="font-bold text-lg">Stay Connected</h3>
                             <p className="mt-4">Follow us on our social media channels:</p>
                             <div className="mt-4 space-x-4">
-                                <a href="#" className="text-white hover:text-blue-400">Facebook</a>
-                                <a href="#" className="text-white hover:text-blue-400">Twitter</a>
-                                <a href="#" className="text-white hover:text-blue-400">LinkedIn</a>
+                                <a href="https://facebook.com" className="text-white hover:text-blue-400" target="_blank" rel="noopener noreferrer">Facebook</a>
+                                <a href="https://twitter.com" className="text-white hover:text-blue-400" target="_blank" rel="noopener noreferrer">Twitter</a>
+                                <a href="https://linkedin.com" className="text-white hover:text-blue-400" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                             </div>
                         </div>
                     </div>

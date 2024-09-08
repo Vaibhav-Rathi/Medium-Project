@@ -6,7 +6,8 @@ export const LandingPage = () => {
             {/* Header */}
             <header className="bg-white shadow-sm">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                    <div className="text-2xl font-bold text-gray-800"></div>
+                    {/* Add your logo or site name here */}
+                    <div className="text-2xl font-bold text-gray-800">MyBlog</div>
                     <nav className="space-x-6">
                         <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>
                         <Link to="/about" className="text-gray-600 hover:text-gray-900">About</Link>
@@ -61,7 +62,6 @@ export const LandingPage = () => {
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-center text-gray-800">Featured Blogs</h2>
                     <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {/* Example Blog Cards */}
                         <BlogCard 
                             title="How to Start Blogging in 2024"
                             author="John Doe"
