@@ -6,8 +6,7 @@ export const LandingPage = () => {
             {/* Header */}
             <header className="bg-white shadow-sm">
                 <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-                    {/* Add your logo or site name here */}
-                    <div className="text-2xl font-bold text-gray-800">MyBlog</div>
+                    <div className="text-2xl font-bold text-gray-800"></div>
                     <nav className="space-x-6">
                         <Link to="/" className="text-gray-600 hover:text-gray-900">Home</Link>
                         <Link to="/about" className="text-gray-600 hover:text-gray-900">About</Link>
@@ -62,6 +61,7 @@ export const LandingPage = () => {
                 <div className="container mx-auto px-6">
                     <h2 className="text-3xl font-bold text-center text-gray-800">Featured Blogs</h2>
                     <div className="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+                        {/* Example Blog Cards */}
                         <BlogCard 
                             title="How to Start Blogging in 2024"
                             author="John Doe"
@@ -102,9 +102,9 @@ export const LandingPage = () => {
                             <h3 className="font-bold text-lg">Stay Connected</h3>
                             <p className="mt-4">Follow us on our social media channels:</p>
                             <div className="mt-4 space-x-4">
-                                <a href="#" className="text-white hover:text-blue-400">Facebook</a>
-                                <a href="#" className="text-white hover:text-blue-400">Twitter</a>
-                                <a href="#" className="text-white hover:text-blue-400">LinkedIn</a>
+                                <button className="text-white hover:text-blue-400">Facebook</button>
+                                <button className="text-white hover:text-blue-400">Twitter</button>
+                                <button className="text-white hover:text-blue-400">LinkedIn</button>
                             </div>
                         </div>
                     </div>
